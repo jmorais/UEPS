@@ -1,0 +1,18 @@
+
+Shows the help menu.
+
+Syntax: help <command>, where:
+
+<command> : the command that you need help. If <command> value is null, the general help will be showed.
+
+E.g.:
+
+  $> help exit
+  Close the Ultra Express Process Scheduler.
+
+syntax: exit
+
+E.g.:
+
+  $> exit
+  Bye-bye.

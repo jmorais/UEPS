@@ -1,0 +1,8 @@
+
+Starts scheduling simulation.
+
+Syntax: start
+
+E.g.:
+  $> start
+  Starting scheduling simulation.

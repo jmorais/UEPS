@@ -1,0 +1,19 @@
+
+Shows the selected list.
+
+Syntax: show <list>, where:
+
+<list>: the list that will be showed. Its value can be:
+ 
+readyList - show the processes that are ready.
+sleepList - show the processes that are blocked.
+
+E.g.:
+
+  $> show readyList
+
+  No.	| PID	| Process Name	 | Time | Memory 
+  ==============================================
+      1 | 	  1	| 			  p1 | 	 16	|	  32 
+      2 | 	  2	| 			  p2 | 	 32	|	  64 
+      3 | 	  3	| 			  p3 | 	 20	|	  32   

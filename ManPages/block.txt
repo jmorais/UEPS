@@ -1,0 +1,13 @@
+
+Blocks a process.
+
+Syntax: block <processName>, where:
+
+<processName>: the process to be blocked.
+
+E.g.:
+  $> insert p1
+  Process p1 created successfully.
+
+  $> block p1
+  Process p1 blocked successfully.

@@ -1,0 +1,15 @@
+
+Inserts a new process on scheduler.
+
+Syntax: insert <processName> <time> <memory>, where:
+
+<processName>: the new process' name.
+<time>: the time the process needs to work.
+<memory>: the memory the process needs to work.
+
+E.g.:
+  $> insert p1 10 64
+  Process p1 created successfully.
+
+  $> insert p2 30 64
+  Process p2 created successfully.

@@ -1,0 +1,15 @@
+
+Sets the scheduler algorithm.
+
+Syntax: setAlgorithm <algorithm>, where:
+
+<algorithm> : the algorithm to be used to schedule the processes. Its value can be:
+
+FIFO - First-In First-Out (nonpreemptive)
+SJF - Shortest Job First (nonpreemptive)
+SRT - Shortest Remaining Time (preemptive)
+RR - Round Robin (preemptive)
+
+E.g.:
+  $> setAlgorithm SRT
+  Scheduler's algorithm setted to: Shortest Remaining Time.

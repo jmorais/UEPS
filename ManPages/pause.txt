@@ -1,0 +1,8 @@
+
+Pauses scheduling simulation.
+
+Syntax: pause
+
+E.g.:
+  $> pause
+  Pausing scheduling simulation.

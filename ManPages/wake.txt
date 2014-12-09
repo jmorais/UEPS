@@ -1,0 +1,14 @@
+
+Unblocks a process.
+
+Syntax: wake <processName>, where:
+
+<processName>: the process that to be unblocked.
+
+E.g.:
+
+  $> block p1
+  Process p1 blocked successfully.
+
+  $> wake p1
+  Process p1 unblocked successfully.

@@ -1,0 +1,9 @@
+
+Closes the Ultra Express Process Scheduler.
+
+syntax: exit
+
+E.g.:
+
+  $> exit
+  Bye-bye.
